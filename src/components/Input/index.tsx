@@ -11,7 +11,8 @@ import { Container } from './styles';
 
 interface IInputProps {
   name: string,
-  icon: any,
+  icon?: any,
+  placeholder: string,
 }
 
 function Input ({ name, icon: Icon, ...rest }:IInputProps) {
